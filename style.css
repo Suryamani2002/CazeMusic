@@ -1,0 +1,319 @@
+/* body,html{
+    margin: 0px;
+    padding: 0px;
+} */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar{
+    background-color: rgba(26,23,23,0.84);
+    width:100%;
+    height: 63px;
+    color: #fff;
+    position: sticky; /* to be there for all time */
+    top:0;
+}
+
+#nav-bar p{
+    display: inline-block ;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nav-bar li{
+    float: left;
+    /* ; what is its value?? */
+}
+
+#nav-bar li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+}
+
+#btn{
+    float: right;
+    padding: 20px;
+}
+
+#btn i{
+    display: none;
+}
+
+/* specially for itunes text */
+#top-right a{
+    text-decoration: none;
+    color: #fbf;
+    position: relative;
+    top: 15px;
+    padding: 20px;
+}
+
+#top-right a:hover{
+    color: #13bffd;
+    background-color: #fff;
+}
+#nav-bar ul li a:hover{
+    color: #333333;
+    background-color: #fff;
+}
+
+/* ............................... */
+
+
+#landing-section{
+    background: url('images/showcase.jpeg') no-repeat center;
+    background-size: cover;
+    height: 690px;
+}
+
+
+#content{
+    color: #fff;
+    text-align: center;
+    width: 85%;
+    height: 50%;
+    margin: auto;
+    padding-top: 170px;
+}
+
+#content h1{
+    font-size: 62px;
+}
+
+#content h2{
+    font-size: 32px;
+    padding: 50px 0;
+}
+
+#content h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* ................................ */
+
+#music{
+    background-color:#252529 ;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+
+#music-section{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    /* shortcut method to align items to middle */
+}
+#music-section h1{
+    font-size: 52px;
+    padding: 30px 0px;
+    
+}
+
+/* for accessing 2 child of h1 */
+#music-section h1:nth-child(2){
+    font-size: 40px;
+}
+
+#music-section p{
+    font-size: 20px;
+    padding: 20px 0px;
+    padding-bottom:40px;
+    line-height: 1.5;
+}
+
+#music-section p:last-of-type{
+    padding-top:40px;
+    font-size: 17px;
+}
+
+#music-section a{
+    text-decoration:none;
+    padding: 15px 10px;
+    color: white;
+    background-color: #b90415;
+}
+#music-section img{
+    width: 100%;
+    height: 0px;
+}
+
+/* ........................ */
+
+#video{
+    background-color: #f4f4f4;
+    padding-bottom: 20px;
+}
+
+#video-section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#video-section h1{
+    font-size: 42px;
+    color: rgba(0,0,0,0.8);
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color:rgb(2, 122, 92)
+    
+}
+
+#video-section p{
+    font-size: 21px;
+    color: rgba(0,0,0,0.7);
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+#video-section a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    background-color: #136;
+    /* margin-bottom: 300px; */
+}
+
+#video-section img{
+    /* width: 90%; */
+    height: 700px;
+}
+
+.flex-contain .flex-para{
+    font-size: 40px;
+    text-align: center;
+    padding-right:20px;
+      
+}
+
+
+.flex-contain{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ..................................... */
+
+
+    /* for stars */
+
+
+/* ........................................... */
+
+#gift-cards{
+    height: 450px;
+    background-color: #f4f4f4;
+}
+#container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+#image{
+    padding-top: 20px;
+    width: 50%;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+}
+#info{
+    width: 50%;
+    padding-left: 30px;
+    color: rgba(0,0,0,0.7);
+}
+
+#info h2{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color:red;
+}
+
+#info p{
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(0,0,0,0.7);;
+    padding-bottom: 10px;
+}
+
+#info a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+
+#link{
+    margin-top: 15px;
+}
+
+
+/* ...................................... */
+
+
+
+#menu{
+    background-color: #252529;
+}
+
+
+#menu-container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+#menu-container ul{
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+#menu-container li a{
+    color: rgba(255,255,255,0.8);;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#menu-container h2{
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#menu-container div{
+    padding-right: 50px;
+    width: 25%;
+}
+
+
+/* ............................ */
+footer{
+    background-color: #333;
+}
+footer p{
+    color: white;
+    width: 25%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px;
+}
